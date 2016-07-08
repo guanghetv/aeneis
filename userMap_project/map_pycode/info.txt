@@ -1,0 +1,19 @@
+map data
+end time: 2016-07-04
+
+num: 1384449
+
+process:
+get_data --> local_data.csv
+clean_data_2 --> count_pc.csv
+clean_data_1 --> final_data.txt
+
+cities handle:[done and dont change]
+regular_map_data --> get cities from json file
+trans2pinyin --> transfer chinese to pinyin for match
+process_map_data_1 --> get all province and each cities 
+
+---get final_data ---
+count_province --> get all provinces' user data ,then can draw map now
+
+
